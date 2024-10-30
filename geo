@@ -1,3 +1,5 @@
+__all__ = ['pythagoras', 'circle']
+
 import math
 
 def pythagoras(a, b):
