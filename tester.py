@@ -1,3 +1,13 @@
+import math
+
+def pythagoras(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
+
+def circle(r):
+    area = math.pi * r**2
+    return area
+  
 import geo.utils as utils
 
 # calculate the length of hypotenuse(c) when a=3 and b=4
